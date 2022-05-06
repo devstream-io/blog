@@ -1,8 +1,8 @@
 ---
 title: "Hello, World!"
 date: 2022-03-21T00:00:00+08:00
-tags: ["how-to", "devstream"]
-categories: ["how-to", "devstream"]
+tags: ["how-to", "devstream", "english-articles"]
+categories: ["DevStream How-To", "English"]
 featuredImage: "donganlake.jpg"
 ---
 

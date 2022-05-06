@@ -1,8 +1,8 @@
 ---
 title: "你好，世界!"
 date: 2022-03-21T00:00:00+08:00
-tags: ["how-to", "devstream"]
-categories: ["how-to", "devstream"]
+tags: ["how-to", "devstream", "chinese-articles"]
+categories: ["DevStream How-To", "中文"]
 featuredImage: "donganlake.jpg"
 ---
 
