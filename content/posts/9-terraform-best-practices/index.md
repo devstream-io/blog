@@ -10,7 +10,7 @@ resources:
 - name: "featured-image"
   src: "banner.jpg"
 - name: "featured-image-preview"
-  src: "banner.jpg"
+  src: "preview.jpg"
 ---
 
 {{< admonition >}}
