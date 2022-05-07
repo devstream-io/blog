@@ -1,12 +1,21 @@
 ---
 title: "9 Extraordinary Terraform Best Practices That Will Change Your Infra World"
-date: 2022-04-12T00:00:00+08:00
+author: "Tiexin Guo | 郭铁心"
+authorLink: https://github.com/IronCore864
 tags: ["infrastructure-as-code", "terraform", "english-articles"]
-categories: ["Infrastructure as Code", "Terraform", "English"]
-featuredImage: "banner.jpg"
+categories: ["Infrastructure as Code", "Terraform", "English Articles"]
+date: 2022-04-12
+
+resources:
+- name: "featured-image"
+  src: "banner.jpg"
+- name: "featured-image-preview"
+  src: "banner.jpg"
 ---
 
-_Note: this article is orignally published at [GitGuardian Blog](https://blog.gitguardian.com/9-extraordinary-terraform-best-practices/)._
+{{< admonition >}}
+This article is orignally published at [GitGuardian Blog](https://blog.gitguardian.com/9-extraordinary-terraform-best-practices/).
+{{< /admonition >}}
 
 Before you quickly glance over the title and think "Oh god, yet another tutorial on how to give proper names to variables, how to use modules, how to manage states; nothing I haven't already know" then close the tab right away, let me assure you this: this article is none of those.
 

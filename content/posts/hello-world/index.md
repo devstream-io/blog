@@ -1,9 +1,16 @@
 ---
 title: "Hello, World!"
-date: 2022-03-21T00:00:00+08:00
+author: "Tiexin Guo | 郭铁心"
+authorLink: https://github.com/IronCore864
 tags: ["how-to", "devstream", "english-articles"]
-categories: ["DevStream How-To", "English"]
-featuredImage: "donganlake.jpg"
+categories: ["DevStream How-To", "English Articles"]
+date: 2022-03-21
+
+resources:
+- name: "featured-image"
+  src: "donganlake.jpg"
+- name: "featured-image-preview"
+  src: "donganlake.jpg"
 ---
 
 Hello, and welcome to the DevStream blog!

@@ -1,9 +1,16 @@
 ---
 title: "Creating a DevStream (dtm) Plugin for Anything"
-date: 2022-03-29T00:00:00+08:00
+author: "Tiexin Guo | 郭铁心"
+authorLink: https://github.com/IronCore864
 tags: ["how-to", "devstream", "english-articles"]
-categories: ["DevStream How-To", "English"]
-featuredImage: "cat.jpg"
+categories: ["DevStream How-To", "English Articles"]
+date: 2022-03-29
+
+resources:
+- name: "featured-image"
+  src: "cat.jpg"
+- name: "featured-image-preview"
+  src: "cat.jpg"
 ---
 
 Yes, the title of this post isn't bluffing: you can actually create a plugin for just about anything that takes your fancy.
@@ -12,7 +19,7 @@ Yes, the title of this post isn't bluffing: you can actually create a plugin for
 > 
 > If you haven't read it yet, here's a quick link for you:
 > 
-> [Hello, world!](/posts/hello-world)
+> [Hello, world!](../hello-world)
  
 In this blog, we will walk you through the steps of creating a DevStream plugin from scratch with an example. 
 
@@ -157,7 +164,7 @@ Before explaining interfaces and implementing them, let's have a look at how Dev
 
 DevStream decides what to do based on your _Config_, the _State_, and the _Resource_'s status. See the flowchart below:
 
-![dtm config state resource](./config_state_resource.png)
+![dtm config state resource](config_state_resource.png "DevStream Config, State and Resource")
 
 ### Interfaces
 

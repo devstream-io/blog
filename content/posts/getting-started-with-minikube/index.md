@@ -1,9 +1,16 @@
 ---
 title: "Getting Started with minikube"
-date: 2022-04-20T00:00:00+08:00
-tags: ["how-to", "devstream", "kubernetes", "english-articles"]
-categories: ["Kubernetes", "English"]
-featuredImage: "banner.png"
+author: "Daniel Hu | 胡涛"
+authorLink: https://www.danielhu.cn
+tags: ["kubernetes", "minikube", "english-articles"]
+categories: ["Kubernetes", "English Articles"]
+date: 2022-04-20
+
+resources:
+- name: "featured-image"
+  src: "banner.png"
+- name: "featured-image-preview"
+  src: "banner.png"
 ---
 
 What’s up guys, this is Daniel! Yeah, this English blog is WRITTEN by me, not TRANSLATED by me! It’s my first English blog in my whole life. If you are a Chinese reader, maybe you’ve ever seen my Chinese blogs before. Right, I wrote a lot of blogs, but only in Chinese. Believe it or not, English isn’t my strong suit. But I want to have a try today and I’ll do my best. Let’s get started.
@@ -14,14 +21,13 @@ If you ask me how to create a local Kubernetes cluster, I'll tell you [Kind](htt
 
 In my previous article, I walked you guys through "How to Create a Local Kubernetes Cluster from the Ground Up" with `Kind`. If you are interested, here's a quick link for you:
 
-- [Creating a Local Kubernetes Cluster from the Ground Up](/posts/local-k8s-kind)
+- [Creating a Local Kubernetes Cluster from the Ground Up](../creating-a-local-k8s-cluster-with-kind)
 
 You might ask why that article is written by [Tiexin Guo](https://github.com/IronCore864), not me. Of course! As I said in the beginning, this blog you are reading now is my first English blog. So, technically, the one above isn’t “my” article, but I did write the Chinese version of it:
 
-- [从零开始快速搭建本地 Kubernetes 测试环节](https://www.devstream.io/zh/blog/local-k8s-with-kind)
+- [用 Kind 从零开始快速搭建本地 Kubernetes 测试环节](../%E7%94%A8kind%E9%83%A8%E7%BD%B2k8s%E7%8E%AF%E5%A2%83/)
 
 Both `minikube` and `Kind` are the most well-known and popular choices to run a Kubernetes environment on a local computer. Since I've shown you how to use `Kind`, I might as well introduce `minikube` to youadorable today.
-
 
 ## Quick Start with `minikube`
 
@@ -64,7 +70,7 @@ $ minikube start
 ❌  Exiting due to DRV_DOCKER_NOT_RUNNING: Found docker, but the docker service isn't running. Try restarting the docker service.
 ```
 
-Ok, it doesn’t matter; we need to install Docker. In my previous article [How to Create a Local Kubernetes Cluster from the Ground Up](/blog/local-k8s-with-kind#install-docker), I introduced how to "Install Docker".
+Ok, it doesn’t matter; we need to install Docker. In my previous article [用 Kind 从零开始快速搭建本地 Kubernetes 测试环节](../%E7%94%A8kind%E9%83%A8%E7%BD%B2k8s%E7%8E%AF%E5%A2%83/#install-docker), I introduced how to "Install Docker".
 
 After the Docker is installed, what we'll need in total?
 
