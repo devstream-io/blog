@@ -1,9 +1,16 @@
 ---
 title: "Dagger (the CI/CD Tool, not the Knife) In-Depth - Everything You Need to Know (as of Apr 2022)"
-date: 2022-04-12T00:00:00+08:00
+author: "Tiexin Guo | 郭铁心"
+authorLink: https://github.com/IronCore864
 tags: ["ci", "general", "english-articles"]
-categories: ["CI", "General", "English"]
-featuredImage: "banner.jpg"
+categories: ["CI", "General", "English Articles"]
+date: 2022-04-12
+
+resources:
+- name: "featured-image"
+  src: "banner.jpg"
+- name: "featured-image-preview"
+  src: "banner.jpg"
 ---
 
 ## 1 What is Dagger?

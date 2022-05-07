@@ -1,9 +1,16 @@
 ---
 title: "Getting Started with minikube"
-date: 2022-04-20T00:00:00+08:00
-tags: ["how-to", "devstream", "kubernetes", "english-articles"]
-categories: ["Kubernetes", "English"]
-featuredImage: "banner.png"
+author: "Daniel Hu | 胡涛"
+authorLink: https://www.danielhu.cn
+tags: ["kubernetes", "minikube", "english-articles"]
+categories: ["Kubernetes", "English Articles"]
+date: 2022-04-20
+
+resources:
+- name: "featured-image"
+  src: "banner.png"
+- name: "featured-image-preview"
+  src: "banner.png"
 ---
 
 What’s up guys, this is Daniel! Yeah, this English blog is WRITTEN by me, not TRANSLATED by me! It’s my first English blog in my whole life. If you are a Chinese reader, maybe you’ve ever seen my Chinese blogs before. Right, I wrote a lot of blogs, but only in Chinese. Believe it or not, English isn’t my strong suit. But I want to have a try today and I’ll do my best. Let’s get started.

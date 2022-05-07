@@ -1,9 +1,16 @@
 ---
 title: "Creating a Local Kubernetes Cluster from the Ground Up"
-date: 2022-04-18T00:00:00+08:00
+author: "Tiexin Guo | 郭铁心"
+authorLink: https://github.com/IronCore864
 tags: ["how-to", "kubernetes", "devstream", "english-articles"]
 categories: ["Kubernetes", "English"]
-featuredImage: "banner.jpg"
+date: 2022-04-18
+
+resources:
+- name: "featured-image"
+  src: "banner.jpg"
+- name: "featured-image-preview"
+  src: "banner.jpg"
 ---
 
 # Creating a Local Kubernetes Cluster from the Groud Up - a Tutorial of `kind`

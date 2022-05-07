@@ -1,9 +1,24 @@
 ---
 title: "你好，世界!"
 date: 2022-03-21T00:00:00+08:00
-tags: ["how-to", "devstream", "chinese-articles"]
-categories: ["DevStream How-To", "中文"]
+tags: ["how-to", "devstream", "中文文章"]
+categories: ["DevStream How-To", "中文文章"]
 featuredImage: "donganlake.jpg"
+---
+
+---
+title: "你好，世界!"
+author: "Daniel Hu | 胡涛"
+authorLink: https://www.danielhu.cn
+tags: ["how-to", "devstream", "中文文章"]
+categories: ["DevStream How-To", "中文文章"]
+date: 2022-03-21
+
+resources:
+- name: "featured-image"
+  src: "donganlake.jpg"
+- name: "featured-image-preview"
+  src: "donganlake.jpg"
 ---
 
 本文不算短，但是我知道你会读完。如果没读完，，不可能，绝对不可能！
