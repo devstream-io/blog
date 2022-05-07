@@ -8,9 +8,9 @@ date: 2022-03-29
 
 resources:
 - name: "featured-image"
-  src: "banner.jpg"
+  src: "bike.jpeg"
 - name: "featured-image-preview"
-  src: "banner.jpg"
+  src: "bike.jpeg"
 ---
 
 ![湖边星巴克门外的一只猫，中国-成都](./banner.jpg)
