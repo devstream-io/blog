@@ -21,14 +21,13 @@ If you ask me how to create a local Kubernetes cluster, I'll tell you [Kind](htt
 
 In my previous article, I walked you guys through "How to Create a Local Kubernetes Cluster from the Ground Up" with `Kind`. If you are interested, here's a quick link for you:
 
-- [Creating a Local Kubernetes Cluster from the Ground Up](/posts/local-k8s-kind)
+- [Creating a Local Kubernetes Cluster from the Ground Up](../creating-a-local-k8s-cluster-with-kind)
 
 You might ask why that article is written by [Tiexin Guo](https://github.com/IronCore864), not me. Of course! As I said in the beginning, this blog you are reading now is my first English blog. So, technically, the one above isn’t “my” article, but I did write the Chinese version of it:
 
-- [从零开始快速搭建本地 Kubernetes 测试环节](https://www.devstream.io/zh/blog/local-k8s-with-kind)
+- [用 Kind 从零开始快速搭建本地 Kubernetes 测试环节](../%E7%94%A8kind%E9%83%A8%E7%BD%B2k8s%E7%8E%AF%E5%A2%83/)
 
 Both `minikube` and `Kind` are the most well-known and popular choices to run a Kubernetes environment on a local computer. Since I've shown you how to use `Kind`, I might as well introduce `minikube` to youadorable today.
-
 
 ## Quick Start with `minikube`
 
@@ -71,7 +70,7 @@ $ minikube start
 ❌  Exiting due to DRV_DOCKER_NOT_RUNNING: Found docker, but the docker service isn't running. Try restarting the docker service.
 ```
 
-Ok, it doesn’t matter; we need to install Docker. In my previous article [How to Create a Local Kubernetes Cluster from the Ground Up](/blog/local-k8s-with-kind#install-docker), I introduced how to "Install Docker".
+Ok, it doesn’t matter; we need to install Docker. In my previous article [用 Kind 从零开始快速搭建本地 Kubernetes 测试环节](../%E7%94%A8kind%E9%83%A8%E7%BD%B2k8s%E7%8E%AF%E5%A2%83/#install-docker), I introduced how to "Install Docker".
 
 After the Docker is installed, what we'll need in total?
 

@@ -1,9 +1,9 @@
 ---
-title: "Creating a Local Kubernetes Cluster from the Ground Up"
+title: "Creating a Local Kubernetes Cluster from the Groud Up - a Tutorial of \"Kind\""
 author: "Tiexin Guo | 郭铁心"
 authorLink: https://github.com/IronCore864
 tags: ["how-to", "kubernetes", "devstream", "english-articles"]
-categories: ["Kubernetes", "English"]
+categories: ["Kubernetes", "English Articles"]
 date: 2022-04-18
 
 resources:
@@ -12,8 +12,6 @@ resources:
 - name: "featured-image-preview"
   src: "banner.jpg"
 ---
-
-# Creating a Local Kubernetes Cluster from the Groud Up - a Tutorial of `kind`
 
 From the ground up? Yep, from the ground up!
 
