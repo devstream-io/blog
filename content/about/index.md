@@ -4,11 +4,15 @@ date: 2022-05-06
 ---
 
 {{< admonition >}}
-博客站点迁移中...
+We are in the middle of website migration | 博客站点迁移中...
 {{< /admonition >}}
 
-## 传送门 - English Version // todo @IronCore
+## Links
 
+- Website: <https://devstream.io>
+- GitHub: <https://github.com/devstream-io/devstream>
+- Documentation: <https://docs.devstream.io>
+- Slack: [click here to join](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w>)
 
 ## 传送门
 
@@ -18,8 +22,30 @@ date: 2022-05-06
 - Slack: [点我加入](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w>)
 - 微信群: // todo
 
-## DevStream 是什么？- English Version // todo @IronCore
+## What is DevStream?
 
+_TL;DR: DevStream (CLI tool named dtm) is an open-source DevOps toolchain manager._
+
+Imagine you are starting a new project or ramping up a new team. Before writing the first line of code, you have to figure out the tools to run an effective SDLC process and from development to deployment. Typically, you'd need the following pieces in place to work effectively:
+
+- Project management software or issue tracking tools (JIRA, etc.)
+- Source code management (GitHub, Bitbucket, etc.)
+- Continuous integration tools (Jenkins, CircleCI, Travis CI, etc.)
+- Continuous delivery/deployment tools (Flux CD/Flux2, Argo CD, etc.)
+- A single source of truth for secrets and credentials (secrets manager, e.g., Vault by HashiCorp)
+- Some tools for centralized logging and monitoring (for example, ELK, Prometheus/Grafana);
+
+The list could go on for quite a bit, but you get the idea! There are many challenges in creating an effective and personalized workflow:
+
+- There are too many choices. Which is best? There is no "one-size-fits-all" answer because it totally depends on your needs and preferences.
+- Integration between different pieces is challenging, creating silos and fragmentation.
+- The software world evolves fast. What's best today might not make sense tomorrow. If you want to switch parts or tools out, it can be challenging and resource intensive to manage.
+
+To be fair, there are a few integrated products out there that may contain everything you might need, but they might not suit your specific requirements perfectly. So, the chances are, you will still want to go out and do your research, find the best pieces, and integrate them yourself. That being said, to choose, launch, connect, and manage all these pieces take a lot of time and energy.
+
+You might be seeing where we are going with this, and you are right. We wanted to make it easy to set up these personalized and flexible toolchains, so we built DevStream, an open-source DevOps toolchain manager. Think of the Linux kernel V.S. different distributions. Different distros offer different packages so that you can always choose the best for your need. Or, think of yum, apt, or apk. You can easily set it up with your favorite packages for any new environment using these package managers.
+
+DevStream aims to be the package manager for DevOps tools. To be more ambitious, DevStream wants to be the Linux kernel, around which different distros can be created with various components so that you can always have the best components for each part of your SDLC workflow.
 
 ## DevStream 是什么？
 
