@@ -1,4 +1,3 @@
-name: Production workflow
 on:
   push:
     branches:
@@ -6,11 +5,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@main
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -18,12 +15,6 @@ jobs:
           extended: true
       - name: Build
         run: hugo
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
-          publish_dir: ./public
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         env:
