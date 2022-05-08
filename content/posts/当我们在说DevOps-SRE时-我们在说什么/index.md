@@ -2,8 +2,8 @@
 title: "当我们在说DevOps/SRE/PE/NoOps的时，我们在说什么"
 author: "HaoKe | 柯浩"
 authorLink: http://github.com/KeHaohaoke
-tags: ["DevOps","SRE","NoOps","PE"]
-categories: ["DevOps","SRE","中文文章"]
+tags: ["DevOps","SRE","NoOps"]
+categories: ["DevOps","General","中文文章"]
 date: 2022-05-07
 resources:
 - name: "featured-image"
@@ -14,7 +14,7 @@ resources:
 
 > Note: 以下观点不代表本人就职的公司。系作者个人观点。这些观点和作者的本人工作经历有关，可能不够面面俱到。
 
-# 从Devops的由来说起
+## 从Devops的由来说起
 
 > 近些年，DevOps以及SRE的宣传和布道在国内越来越多，在各招聘平台也可以看到这些职位的招聘信息(出现具体公司信息的，隐去)，以某招聘网站，地点选择北京，分别搜索devops和sre我们可以看到
 devops的职位
@@ -50,7 +50,7 @@ Patrick随后在Twitter上表示，他也想参加Velocity大会，一些工程�
 这也是DevOps领域著名的会议：DevOps Days的第一次首秀，本次会议结束后，参会的工程师和管理人员们带着Devops的理念回到世界各地，逐渐的在全世界范围内推广和实践DevOps。
 
 
-# DevOps在做什么
+## DevOps在做什么
 
 ![Photo by PCB-TECH on https://pixabay.com](./devops.png)
 *Photo by PCB-TECH on https://pixabay.com*
@@ -67,7 +67,7 @@ Patrick随后在Twitter上表示，他也想参加Velocity大会，一些工程�
 > 我们回忆一下（可能有的同学回忆不了，没经历过那个时代）手工运维的时代：在没有任何自动化设施的软件公司，怎么发布软件：研发按需求开发，在本地打包构建，把包给运维同学，运维同学把包上传到服务器，修改配置文件为生产环境配置，重启服务以生效。
 > 哦，好吧，每次发布都是折磨人，尤其是随着节点规模的逐步的扩大，每操作一个节点，就要把上述操作全部进行一次，简直了，忍受不了。是的，那就需要DevOps，拒绝手工。
 
-## 流水线，CICD
+### 流水线，CICD
 
 如上，想象一下没有流水线的场景，我们需要手工做CI持续集成：代码lint，单元测试，构建。然后再做发布验证。
 如果不能自动化的做这些，那么，就不能**尽可能多和尽可能快**的**持续交付价值**。
@@ -80,7 +80,7 @@ Patrick随后在Twitter上表示，他也想参加Velocity大会，一些工程�
 
 这些为什么重要呢？从交付速度 角度来说，越快的加速交付，就能越快的去验证商业逻辑、试错、提高bug修复到客户看到效果等各种过程的速度。
 
-## 敏捷与DevOps
+### 敏捷与DevOps
 
 不管是国内，还是国外，提到敏捷，就绕不开DevOps。
 我们回忆一下上文提到的Patrick老哥，他在Agile 2008 大会上的演讲中谈到可以将 Scrum（敏捷一种实现）结合运维中。Patrick在一个测试数据中心迁移的项目与开发和运维团队一起工作。在他的工作中，需要频繁往返于开发与运维之间。
@@ -92,9 +92,9 @@ Patrick随后在Twitter上表示，他也想参加Velocity大会，一些工程�
 
 而对于传统的运维流程 ITIL。DevOps则是有选择的吸收，要有流程，但不是受制于流程，且流程的变更应该是自动化工具实现的推动和数据的流转，而不是依赖人工。
 
-## DevOps文化
+### DevOps文化
 
-### 打破部门墙，树立Ownership
+#### 打破部门墙，树立Ownership
 
 这是在务虚吗？不完全是。
 DevOps的确强调文化。我们又要提到Patrick老哥，前文已述，他的工作要频繁的往返于开发和运维之间。
@@ -114,7 +114,7 @@ DevOps正是要打破这种部门墙，让Dev和OPS有效的沟通：
 
 仅仅以为引入了自动化工具就是DevOps是不够的，还需要协作，关注价值传递。
 
-### 康威定律与组织建设
+#### 康威定律与组织建设
 
 **康威定律： 设计系统的组织，其产生的设计和架构等价于组织间的沟通结构。**
 
@@ -133,7 +133,7 @@ DevOps正是要打破这种部门墙，让Dev和OPS有效的沟通：
 
 PS：安全的同学吸收DevOps的理念，强调Dev/Sec/Ops三者的协作，并把DevOps的方法融入到安全的工作中，就是DevSecOps了。
 
-### 说了这么多，DevOps只关注交付吗
+#### 说了这么多，DevOps只关注交付吗
 
 好了，这个标题是故意的，是为了引出SRE。
 交付之后呢？就不管了吗？
@@ -190,4 +190,3 @@ AIOps是这几年才有的概念，但作者个人的经历结合看到的DevOps
 可以尝试向真正的DevOps或者SRE转变，可以做先吃螃蟹的人。
 
 如果你还在为部署/配置/整合打通各种Devops工具费神，可以看看一个神奇的网站：[DevStream官网](https://www.devstream.io)的开源工具：[DevStream](https://github.com/devstream-io/devstream)，它会帮助你向真正的DevOps更进一步，在此基础上，你可以更好的学习和成长，以至于成为google定义的真正的SRE。
-
