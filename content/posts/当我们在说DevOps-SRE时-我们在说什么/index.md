@@ -5,6 +5,11 @@ authorLink: http://github.com/KeHaohaoke
 tags: ["DevOps","SRE","NoOps","PE"]
 categories: ["DevOps","SRE","中文文章"]
 date: 2022-05-07
+resources:
+- name: "featured-image"
+  src: "devops_banner.png"
+- name: "featured-image-preview"
+  src: "devops_banner.png"
 ---
 
 > Note: 以下观点不代表本人就职的公司。系作者个人观点。这些观点和作者的本人工作经历有关，可能不够面面俱到。
