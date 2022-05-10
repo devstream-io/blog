@@ -16,7 +16,7 @@ resources:
 
 > Note 2: recently, my colleague published a blog post (in Chinese, [here's the link](https://blog.devstream.io/posts/%E5%BD%93%E6%88%91%E4%BB%AC%E5%9C%A8%E8%AF%B4devops-sre%E6%97%B6-%E6%88%91%E4%BB%AC%E5%9C%A8%E8%AF%B4%E4%BB%80%E4%B9%88/) if you are interested). I like this post, but I'd like to share more with you on the topic of DevOps. So I decided to publish a miniseries (7 episodes planned) on DevOps. Here's the first article.
 
-> Note 3: this article is originally published on Jan 14, 2021, on Medium in [my DevOps Chat publication named 4th Coffee](). See it [here] if you are interested. This post is edited again on May 10th, 2022.
+> Note 3: this article is originally published on Jan 14, 2021, on Medium in [my DevOps Chat publication named 4th Coffee](https://medium.com/4th-coffee/). See it [here](https://medium.com/4th-coffee/on-devops-1-what-it-is-549bc4e6b1ed) if you are interested. This post is edited again on May 10th, 2022.
 
 ## Background
 
