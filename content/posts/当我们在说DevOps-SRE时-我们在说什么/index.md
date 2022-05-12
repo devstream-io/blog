@@ -2,7 +2,7 @@
 title: "当我们在说DevOps/SRE/PE/NoOps的时，我们在说什么"
 author: "HaoKe | 柯浩"
 authorLink: http://github.com/KeHaohaoke
-tags: ["DevOps","SRE","NoOps"]
+tags: ["devops", "sre", "no-ops"]
 categories: ["DevOps","General","中文文章"]
 date: 2022-05-07
 resources:
