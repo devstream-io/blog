@@ -2,7 +2,7 @@
 title: "On DevOps: 1. What It Is"
 author: "Tiexin Guo | 郭铁心"
 authorLink: https://github.com/IronCore864
-tags: ["DevOps", "english-articles"]
+tags: ["devops", "english-articles"]
 categories: ["General", "English Articles", "On DevOps"]
 date: 2022-05-10
 resources:
