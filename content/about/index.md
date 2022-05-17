@@ -12,6 +12,7 @@ We are in the middle of website migration | 博客站点迁移中...
 - Website: <https://devstream.io>
 - GitHub: <https://github.com/devstream-io/devstream>
 - Documentation: <https://docs.devstream.io>
+- Community: <https://www.devstream.io/community/>
 - Slack: [click here to join](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w>)
 
 ## 传送门
@@ -19,6 +20,7 @@ We are in the middle of website migration | 博客站点迁移中...
 - 官网: <https://devstream.io>
 - GitHub: <https://github.com/devstream-io/devstream>
 - 文档: <https://docs.devstream.io>
+- 社区: <https://www.devstream.io/community/>
 - Slack: [点我加入](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w>)
 - 微信群: // todo
 
