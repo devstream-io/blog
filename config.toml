@@ -30,6 +30,11 @@ theme = "LoveIt"
     Medium = "devstream"
     Devto = "devstream"
     RSS = true
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 60
+    dateFormat = "01-02"
+    rss = 10
   [params.footer]
     enable = true
     custom = '别往下滑了，我是有底线的！看到右边的箭头按钮没？她能带你回到巅峰。'
