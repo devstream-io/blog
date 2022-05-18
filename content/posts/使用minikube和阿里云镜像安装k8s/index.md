@@ -36,7 +36,7 @@ brew install kubectl
 ```
 
 
-在MacOS上，minikube支持多种不同的driver：
+在MacOS(intel芯片）上，minikube支持多种不同的driver：
  -  Docker
  - 	VirtualBox
  - 	VMWare Fusion
