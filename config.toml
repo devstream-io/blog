@@ -32,7 +32,7 @@ theme = "LoveIt"
     RSS = true
   [params.section]
     # special amount of posts in each section page
-    paginate = 60
+    paginate = 30
     dateFormat = "01-02"
     rss = 10
   [params.footer]
