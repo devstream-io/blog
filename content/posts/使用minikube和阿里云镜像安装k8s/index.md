@@ -38,14 +38,32 @@ brew install kubectl
  - 	VMWare Fusion
  - 	HyperKit
 
-接下来，作者会采用两种安装方式：一种使用VM: VMware Fusion， 另外还有Docker两种方式来进行。
+接下来，作者会采用两种安装方式：一种使用VM: Vmware Fusion， 另外还有Docker两种方式来进行。
 
 ### 使用VMWare Fusion安装
+
+在此之前，需要先在MacOS上安装好VMWare Fusion，安装的步骤也比较简单，遵从Vmware的文档来就可以，请参照：[vmware-mac-downloads](https://www.vmware.com/products/fusion/fusion-evaluation.html)
+
+安装好Vmware之后，需要设置path：
+
+根据你使用的是zsh还是bash，分别在.zshrc或者.bashrc里加上：(否则，进行下面的minikube start的时候，会报错，提示找不到vmware)
+
+```shell
+export PATH=$PATH:"/Applications/Vware Fusion.app/Contents/Library"
+```
+当你在Vmware里安装了某个虚拟机，运行`vmrun list`命令会看到类似下面这样的输出。其中，下面的输出中含有minikube是作者在minikube已经运行之后使用这条命令的缘故
+```shell
+vmrun list                                                                                                                       ✔ 
+Total running VMs: 2
+/Users/kehao/.minikube/machines/minikube/minikube.vmx
+/System/Volumes/Data/DigitalResources/VirtualMachine/MyCentOS7.vmwarevm/MyCentOS7.vmx
+```
+
 
 其实很简单，只要一条命令就好了
 
 #### 安装和启动-vmware driver
-``` shell
+```shell
 minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='registry.cn-hangzhou.aliyuncs.com/google_containers'
 ```
 
@@ -63,7 +81,7 @@ minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='regist
 
 也是很简单的一条命令
 
-``` shell
+```shell
  minikube dashboard &
 ```
 
@@ -74,13 +92,13 @@ minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='regist
 
 ![k8s dashboard](./k8s-dashboard.png)
 
-## 使用docker driver安装
+### 使用docker driver安装
 
 > 在更换driver之前，把原来的minikube stop并delete掉
 
 嗯，还是简单的一条命令。其实是两条啦
 
-``` shell
+```shell
 minikube stop
 minikube delete
 ```
@@ -119,7 +137,7 @@ minikube delete
 
 也很简单，就是一条命令：）
 
-``` shell
+```shell
  minikube start --memory=2048 --cpus=2 --image-repository='registry.cn-hangzhou.aliyuncs.com/google_containers'
 ```
 
@@ -142,3 +160,9 @@ kubectl get node
 NAME       STATUS   ROLES                  AGE   VERSION
 minikube   Ready    control-plane,master   15m   v1.23.3
 ```
+
+### 其他的driver的安装支持
+
+在MacOS的darwin amd64（即intel芯片）上，还支持VirtualBox作为driver以及HyperKit作为driver。 
+稍微需要注意的则是传参的时候，应该分别指定为--driver=virtualbox和--driver=hyperkit，而不是用这两者的驼峰命名。
+至于这两者对应的虚拟机的安装，读者可以自己尝试去安装并完成整个流程，自己动手去尝试。
