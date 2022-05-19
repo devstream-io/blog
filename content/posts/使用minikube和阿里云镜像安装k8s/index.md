@@ -144,7 +144,6 @@ minikube delete
 
 ![docker-desktop-config](./docker-desktop-config.png)
 
-
 3. 启动了docker desktop之后，就可以用docker driver的方式用minikube来安装k8s了。
 
 也很简单，就是一条命令：）。
@@ -158,7 +157,6 @@ minikube start --memory=2048 --cpus=2 --image-repository='registry.cn-hangzhou.a
 同使用vmware driver一样，我们start完成之后，需要启动dashboard。
 
 ![minikube-docker-dashboard-start](./minikube-docker-dashboard-start.png)
-
 
 同样也会自动拉起浏览器打开dashboard的url。
 
