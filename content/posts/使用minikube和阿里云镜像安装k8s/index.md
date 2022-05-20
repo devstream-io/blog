@@ -14,16 +14,16 @@ date: 2022-05-18
 该文章和本文并不是一对一的翻译的。有各自不同的角度去讲述，建议你去阅读一下该篇文章，会有不一样的收获。
 
 > **相关背景**： 在日常开发测试中，我们验证和k8s有关的功能的时候，并不需要生产环境规格的k8s集群。
-> 
+>
 > 比如(3 master+3 node)，这种规格的集群，我们个人一般不具有这种配置，也没有必要为了本地测试开发的验证而去专门搭建这样的集群（除非有特殊需要）。
-> 
+>
 > 本文则介绍一种利用minikube来搭建k8s本地开发测试环境的方法。
 > 本文是在MacOS并且是Intel芯片的机器上进行安装minikube的。
-> 
+>
 > **并且在安装中，指定了阿里云镜像，无须进行特别的上网方式的设置，不会有gcr.io下载慢或者无法下载而必须使用一些特殊的上网设置方法的问题。且由于镜像在国内，下载速度也很快。**
 
 > **概要**：本文讲述了在MacOS Intel机器上：
-> 
+>
 > 使用minikube分别以vmware作为driver和使用docker作为driver来安装one node的k8s。
 
 ## minikube安装准备
@@ -84,12 +84,13 @@ Total running VMs: 2
 minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='registry.cn-hangzhou.aliyuncs.com/google_containers'
 ```
 
-> **特别说明**：在这里，我使用了阿里云的镜像。如果没有缺省该参数，即不指定image-repository参数的话，会默认从gcr.io去下载镜像，改地址由于一些网络原因，是会被ban掉的。
-> 
+> **特别说明**：在这里，我使用了阿里云的镜像。如果没有缺省该参数，即不指定image-repository参数的话，会默认从gcr.io去下载镜像，该地址由于一些网络原因，是会被ban掉的。
+>
 > 其实，也是有方法可以去gcr.io下载的，但这里就交给读者自己研究了。
-> 
+>
 > 但用指定阿里云的镜像的方法，会在下载速度上快很多，即使读者研究了方法去从gcr.io下载image，其速度也不是从阿里云下载可比的。
-> 
+>
+
 > 作为开发测试环境，我们希望的是快速完成搭建并使用，倒腾具体的网络下载相关的配置可以放到闲余时间研究。
 
 很快，就会看到安装且启动完毕：
@@ -135,7 +136,7 @@ minikube delete
 在这里也去说明一下安装方法:
 
 1. 去docker官网的链接，找到你的机器对应的安装，点击下载。
-[docker-desktop-install](https://docs.docker.com/desktop/mac/install/)
+   [docker-desktop-install](https://docs.docker.com/desktop/mac/install/)
 
 ![select-macos-type](./select-macos-type.png)
 
@@ -185,8 +186,9 @@ minikube   Ready    control-plane,master   15m   v1.23.3
 
 ### 其他的driver的安装支持
 
-在MacOS的darwin amd64（即intel芯片）上，还支持VirtualBox作为driver以及HyperKit作为driver。 
+在MacOS的darwin amd64（即intel芯片）上，还支持VirtualBox作为driver以及HyperKit作为driver。
 
 稍微需要注意的则是传参的时候，应该分别指定为`--driver=virtualbox`和`--driver=hyperkit`，而不是用这两者的驼峰命名。
 
 至于这两者对应的虚拟机的安装，读者可以自己尝试去安装并完成整个流程，自己动手去尝试。
+
