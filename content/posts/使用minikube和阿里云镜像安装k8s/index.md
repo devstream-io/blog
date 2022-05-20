@@ -52,9 +52,9 @@ brew install kubectl
 
 ### 使用VMWare Fusion安装
 
-在此之前，需要先在MacOS上安装好VMWare Fusion，安装的步骤也比较简单，遵从Vmware的文档来就可以，请参照：[vmware-mac-downloads](https://www.vmware.com/products/fusion/fusion-evaluation.html)。
+在此之前，需要先在MacOS上安装好VMWare Fusion，安装的步骤也比较简单，遵从Vmware的文档来就可以，请参照：[vmware-mac-downloads](https://www.vmware.com/products/fusion/fusion-evaluation.html).
 
-安装好Vmware之后，需要设置path：
+安装好Vmware之后，需要设置path:
 
 根据你使用的是zsh还是bash，分别在.zshrc或者.bashrc里加上：(否则，进行下面的minikube start的时候，会报错，提示找不到vmware)。
 
@@ -90,6 +90,7 @@ minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='regist
 >
 > 但用指定阿里云的镜像的方法，会在下载速度上快很多，即使读者研究了方法去从gcr.io下载image，其速度也不是从阿里云下载可比的。
 >
+
 > 作为开发测试环境，我们希望的是快速完成搭建并使用，倒腾具体的网络下载相关的配置可以放到闲余时间研究。
 
 很快，就会看到安装且启动完毕：
@@ -190,3 +191,4 @@ minikube   Ready    control-plane,master   15m   v1.23.3
 稍微需要注意的则是传参的时候，应该分别指定为`--driver=virtualbox`和`--driver=hyperkit`，而不是用这两者的驼峰命名。
 
 至于这两者对应的虚拟机的安装，读者可以自己尝试去安装并完成整个流程，自己动手去尝试。
+
