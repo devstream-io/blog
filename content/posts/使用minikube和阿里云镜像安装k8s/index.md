@@ -78,7 +78,7 @@ Total running VMs: 2
 minikube start --driver=vmware --memory=2048 --cpus=2 --image-repository='registry.cn-hangzhou.aliyuncs.com/google_containers'
 ```
 
-> **特别说明**：在这里，我使用了阿里云的镜像。如果没有缺省该参数，即不指定image-repository参数的话，会默认从gcr.io去下载镜像，改地址由于一些网络原因，是会被ban掉的。
+> **特别说明**：在这里，我使用了阿里云的镜像。如果没有缺省该参数，即不指定image-repository参数的话，会默认从gcr.io去下载镜像，该地址由于一些网络原因，是会被ban掉的。
 > 其实，也是有方法可以去gcr.io下载的，但这里就交给读者自己研究了。
 > 但用指定阿里云的镜像的方法，会在下载速度上快很多，即使读者研究了方法去从gcr.io下载image，其速度也不是从阿里云下载可比的。
 > 作为开发测试环境，我们希望的是快速完成搭建并使用，倒腾具体的网络下载相关的配置可以放到闲余时间研究。
