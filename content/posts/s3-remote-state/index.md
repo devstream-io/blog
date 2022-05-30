@@ -59,7 +59,7 @@ More on configuring state [here](https://docs.devstream.io/en/latest/core-concep
 
 In short, we can use the "backend" keyword to specify where to store the state: either locally or in an S3 bucket. If S3 is used, we need to specify the bucket, region, and the S3 key as well.
 
-## Getting Started
+## Config File Examples
 
 In this demo, we use the following configs:
 
@@ -104,6 +104,22 @@ tools:
     branch: [[ defaultBranch ]]
     image_repo: [[ dockerhubUsername ]]/[[ repoName ]]
 ```
+
+## Getting Started
+
+Before reading on, now is a good time to check if you have configured your AWS related environment variables correctly or not.
+
+For macOS/Linux users, do:
+
+```shell
+export AWS_ACCESS_KEY_ID=ID_HERE
+export AWS_SECRET_ACCESS_KEY=SECRET_HERE
+export AWS_DEFAULT_REGION=REGION_HERE
+```
+
+For more information, see the [official document here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html).
+
+## Apply
 
 Then let's run `dtm apply`:
 
