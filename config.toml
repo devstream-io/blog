@@ -27,12 +27,12 @@ googleAnalytics = "317275062"
       typeit = true
       social = true
     # Analytics config
-    [params.analytics]
-      enable = true
-      # Google Analytics
-      [params.analytics.google]
-        id = "317275062"
-        anonymizeIP = true
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "317275062"
+      anonymizeIP = true
   [params.social]
     GitHub = "devstream-io"
     Medium = "devstream"
