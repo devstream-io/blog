@@ -5,6 +5,7 @@ hasCJKLanguage = true
 title = "DevStream Blog"
 
 theme = "LoveIt"
+googleAnalytics = "317275062"
 
 [params]
   version = "0.2.X"
@@ -25,6 +26,13 @@ theme = "LoveIt"
       subtitle = "The open-source DevOps toolchain manager (DTM)"
       typeit = true
       social = true
+    # Analytics config
+    [params.analytics]
+      enable = true
+      # Google Analytics
+      [params.analytics.google]
+        id = "317275062"
+        anonymizeIP = true
   [params.social]
     GitHub = "devstream-io"
     Medium = "devstream"
