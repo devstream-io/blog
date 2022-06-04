@@ -2,6 +2,7 @@
 title: "在 GitHub 上玩转开源项目的 Code Review"
 subtitle: ""
 author: "胡涛 | Daniel Hu"
+authorLink: https://www.danielhu.cn
 tags: ["how-to", "code review", "中文文章", "开源", "github"]
 categories: ["DevStream How-To", "开源", "中文文章"]
 date: 2022-06-01
