@@ -1,7 +1,7 @@
 ---
 title: "9 Extraordinary Terraform Best Practices That Will Change Your Infra World"
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["infrastructure-as-code", "terraform", "english-articles"]
 categories: ["Infrastructure as Code", "Terraform", "English Articles"]
 date: 2022-04-12

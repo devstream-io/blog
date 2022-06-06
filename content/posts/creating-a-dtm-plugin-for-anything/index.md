@@ -1,7 +1,7 @@
 ---
 title: "Creating a DevStream (dtm) Plugin for Anything"
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["how-to", "devstream", "english-articles"]
 categories: ["DevStream How-To", "English Articles"]
 date: 2022-03-29

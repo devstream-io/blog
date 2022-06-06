@@ -1,7 +1,7 @@
 ---
 title: "Dagger (the CI/CD Tool, not the Knife) In-Depth - Everything You Need to Know (as of Apr 2022)"
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["ci", "general", "english-articles"]
 categories: ["CI", "General", "English Articles"]
 date: 2022-04-12

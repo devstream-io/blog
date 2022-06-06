@@ -1,7 +1,7 @@
 ---
 title: "Creating a Local Kubernetes Cluster from the Groud Up - a Tutorial of \"Kind\""
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["how-to", "kubernetes", "devstream", "english-articles"]
 categories: ["Kubernetes", "English Articles"]
 date: 2022-04-18
