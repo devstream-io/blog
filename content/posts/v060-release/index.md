@@ -1,7 +1,7 @@
 ---
 title: "DevStream v0.6.0 Release"
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["releases", "english-articles"]
 categories: ["Releases"]
 date: 2022-05-25

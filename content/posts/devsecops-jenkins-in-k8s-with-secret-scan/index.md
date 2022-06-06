@@ -1,7 +1,7 @@
 ---
 title: "How To Setup Your Jenkins Pipeline in K8s with Git Secrets Leak Scan and Docker Image Scan"
 author: "Tiexin Guo | 郭铁心"
-authorLink: https://github.com/IronCore864
+authorLink: https://www.guotiexin.com
 tags: ["devsecops", "ci", "english-articles"]
 categories: ["English Articles", "DevSecOps", "CI"]
 date: 2022-05-12
