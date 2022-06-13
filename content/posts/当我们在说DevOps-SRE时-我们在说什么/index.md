@@ -10,6 +10,10 @@ resources:
   src: "devops_banner.png"
 - name: "featured-image-preview"
   src: "devops_banner.png"
+keywords:
+- DevOps
+- SRE
+- NoOps
 ---
 
 > Note: 以下观点不代表本人就职的公司。系作者个人观点。这些观点和作者的本人工作经历有关，可能不够面面俱到。

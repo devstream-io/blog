@@ -11,6 +11,9 @@ description: ""
 resources:
 - name: "featured-image"
   src: "banner.jpg"
+keywords:
+- DevStream
+- OpenSource
 ---
 
 > 今天，我是来讲故事的，讲我和开源社区、和 [DevStream](https://www.devstream.io/) 的故事。

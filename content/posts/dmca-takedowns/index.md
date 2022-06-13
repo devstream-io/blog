@@ -11,6 +11,8 @@ resources:
   src: "dmca.png"
 - name: "featured-image-preview"
   src: "dmca.png"
+keywords:
+- DMCA
 ---
 
 {{< admonition >}}

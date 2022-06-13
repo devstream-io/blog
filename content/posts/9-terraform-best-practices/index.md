@@ -11,6 +11,10 @@ resources:
   src: "banner.jpg"
 - name: "featured-image-preview"
   src: "preview.jpg"
+keywords:
+- DevOps工具链
+- IaC
+- Best practice
 ---
 
 {{< admonition >}}

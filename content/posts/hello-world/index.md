@@ -11,6 +11,8 @@ resources:
   src: "donganlake.jpg"
 - name: "featured-image-preview"
   src: "donganlake.jpg"
+keywords:
+- DevStream
 ---
 
 Hello, and welcome to the DevStream blog!

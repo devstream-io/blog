@@ -11,6 +11,9 @@ resources:
   src: "cat.jpg"
 - name: "featured-image-preview"
   src: "cat.jpg"
+keywords:
+- DevStream
+- GoLang
 ---
 
 Yes, the title of this post isn't bluffing: you can actually create a plugin for just about anything that takes your fancy.

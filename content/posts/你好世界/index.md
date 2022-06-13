@@ -11,6 +11,8 @@ resources:
   src: "bike.jpeg"
 - name: "featured-image-preview"
   src: "bike.jpeg"
+keywords:
+- DevStream
 ---
 
 本文不算短，但是我知道你会读完。如果没读完，，不可能，绝对不可能！

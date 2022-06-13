@@ -11,6 +11,10 @@ resources:
   src: "s3.jpg"
 - name: "featured-image-preview"
   src: "s3.jpg"
+keywords:
+- DevStream
+- GoLang
+- s3
 ---
 
 In our [latest release v0.6.0](../v060-release/), using AWS S3 to store DevStream state is supported.

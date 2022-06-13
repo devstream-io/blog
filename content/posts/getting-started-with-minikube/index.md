@@ -11,6 +11,10 @@ resources:
   src: "banner.png"
 - name: "featured-image-preview"
   src: "banner.png"
+keywords:
+- k8s
+- minikube
+- DevOps
 ---
 
 What’s up guys, this is Daniel! Yeah, this English blog is WRITTEN by me, not TRANSLATED by me! It’s my first English blog in my whole life. If you are a Chinese reader, maybe you’ve ever seen my Chinese blogs before. Right, I wrote a lot of blogs, but only in Chinese. Believe it or not, English isn’t my strong suit. But I want to have a try today and I’ll do my best. Let’s get started.

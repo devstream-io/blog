@@ -12,6 +12,9 @@ resources:
   src: "banner.jpeg"
 - name: "featured-image-preview"
   src: "banner.jpeg"
+keywords:
+- DevStream
+- OpenSource
 ---
 
 {{< admonition >}}

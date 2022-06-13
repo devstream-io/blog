@@ -12,6 +12,8 @@ description: "A Brief Introduction to Code Review: How-To Review GitHub Open-Sou
 resources:
 - name: "featured-image"
   src: "mountain.jpg"
+keywords:
+- CodeReview
 ---
 
 This is [Tiexin Guo](https://www.guotiexin.com/), [DevStream](https://github.com/devstream-io/devstream) [PMC](https://github.com/orgs/devstream-io/teams/pmc) Chair (an open-source DevOps project with an enthusiastic community.)
