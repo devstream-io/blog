@@ -3,7 +3,7 @@ title: "如何开始参与开源社区"
 subtitle: "致 DevStream 社区“明天”的 Contributor 们的一些“唠叨”"
 author: "胡涛 | Daniel Hu"
 authorLink: https://www.danielhu.cn
-tags: ["devstream-team", "devsteam", "how-to", "中文文章"]
+tags: ["devstream-team", "devstream", "how-to", "中文文章"]
 categories: ["DevStream Team", "中文文章"]
 date: 2022-05-22
 

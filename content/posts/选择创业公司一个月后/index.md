@@ -3,7 +3,7 @@ title: "选择创业公司一个月后～"
 subtitle: "一个月前拒掉腾讯选择思码逸，回过头看我后悔不？"
 author: "胡涛 | Daniel Hu"
 authorLink: https://www.danielhu.cn
-tags: ["wfh", "devstream-team", "devsteam", "中文文章"]
+tags: ["wfh", "devstream-team", "devsrteam", "中文文章"]
 categories: ["DevStream Team", "中文文章"]
 date: 2021-12-31
 
