@@ -3,7 +3,7 @@ title: "我在咖啡厅坐了三个月，憋了个大招！"
 subtitle: "纪念 DevStream 第一次正式 Release"
 author: "胡涛 | Daniel Hu"
 authorLink: https://www.danielhu.cn
-tags: ["wfh", "devstream-team", "devsteam", "中文文章"]
+tags: ["wfh", "devstream-team", "devstream", "中文文章"]
 categories: ["DevStream Team", "中文文章"]
 date: 2022-03-22
 

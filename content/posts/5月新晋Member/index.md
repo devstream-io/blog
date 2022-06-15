@@ -3,7 +3,7 @@ title: "少年，来了，就别走了！"
 subtitle: "欢迎五月份三位 DevStream 社区新晋 Member！"
 author: "胡涛 | Daniel Hu"
 authorLink: https://www.danielhu.cn
-tags: ["devstream-team", "devsteam", "中文文章"]
+tags: ["devstream-team", "devstream", "中文文章"]
 categories: ["DevStream Team", "中文文章"]
 date: 2022-05-22
 
