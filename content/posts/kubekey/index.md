@@ -13,6 +13,10 @@ description: "使用 KubeKey 搭建 Kubernetes/KubeSphere 环境的\"心路(累)
 resources:
 - name: "featured-image"
   src: "banner.jpeg"
+keywords:
+- k8s
+- KubeKey
+- Kubernetes
 ---
 
 ## 今天要干嘛？

@@ -11,6 +11,10 @@ resources:
   src: "s3.jpg"
 - name: "featured-image-preview"
   src: "s3.jpg"
+keywords:
+- DevStream
+- GoLang
+- s3
 ---
 
 > 本文翻译自 [Using AWS S3 to Store DevStream State](../s3-remote-state/)

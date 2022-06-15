@@ -5,6 +5,10 @@ authorLink: http://github.com/KeHaohaoke
 tags: ["kubernetes", "minikube"]
 categories: ["kubernetes", "General", "中文文章"]
 date: 2022-05-18
+keywords:
+- DevOps
+- k8s
+- minikube
 ---
 
 我的同事胡涛写了一篇英文的博客，关于如何使用minikube搭建本地的k8s环境的。

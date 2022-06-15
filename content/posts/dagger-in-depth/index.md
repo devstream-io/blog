@@ -11,6 +11,10 @@ resources:
   src: "banner.jpg"
 - name: "featured-image-preview"
   src: "banner.jpg"
+keywords:
+- DevOps
+- Dagger
+- CICD
 ---
 
 ## 1 What is Dagger?

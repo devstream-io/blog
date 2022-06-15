@@ -11,6 +11,11 @@ resources:
   src: "22W16-blog-how-to-setup.png"
 - name: "featured-image-preview"
   src: "22W16-blog-how-to-setup.png"
+keywords:
+- Jenkins
+- Pipeline
+- DevOps
+- Docker
 ---
 
 _This blog post is first published at [GitGuardian blog](https://blog.gitguardian.com/how-to-setup-jenkins-with-gitguardian-kubernetes/)._

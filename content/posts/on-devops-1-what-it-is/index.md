@@ -10,6 +10,8 @@ resources:
   src: "norway.jpeg"
 - name: "featured-image-preview"
   src: "norway.jpeg"
+keywords:
+- DevOps
 ---
 
 > Note: opinions are my own. They don't represent my current company or any previous companies I've worked for.

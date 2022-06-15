@@ -10,6 +10,9 @@ resources:
   src: "dtm060.png"
 - name: "featured-image-preview"
   src: "dtm060.png"
+keywords:
+- DevStream
+- Release
 ---
 
 ## Demo

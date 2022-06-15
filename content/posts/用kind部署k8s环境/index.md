@@ -11,6 +11,10 @@ resources:
   src: "banner.jpg"
 - name: "featured-image-preview"
   src: "banner.jpg"
+keywords:
+- DevOps
+- k8s
+- kind
 ---
 
 从零开始？从零开始！

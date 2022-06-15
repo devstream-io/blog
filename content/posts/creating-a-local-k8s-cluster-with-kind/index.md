@@ -11,6 +11,10 @@ resources:
   src: "banner.jpg"
 - name: "featured-image-preview"
   src: "banner.jpg"
+keywords:
+- Kubernetes
+- Kind
+- DevOps
 ---
 
 From the ground up? Yep, from the ground up!

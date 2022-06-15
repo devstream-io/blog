@@ -12,6 +12,8 @@ description: ""
 resources:
 - name: "featured-image"
   src: "banner.jpeg"
+keywords:
+- CodeReview
 ---
 
 ## 一、幕后故事

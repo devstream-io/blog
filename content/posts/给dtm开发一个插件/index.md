@@ -11,6 +11,10 @@ resources:
   src: "bike.jpeg"
 - name: "featured-image-preview"
   src: "bike.jpeg"
+keywords:
+- DevStream
+- Plugin
+- GoLang
 ---
 
 ![湖边星巴克门外的一只猫，中国-成都](./banner.jpg)
