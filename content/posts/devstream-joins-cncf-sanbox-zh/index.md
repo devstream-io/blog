@@ -12,9 +12,13 @@ resources:
   src: "banner.jpeg"
 ---
 
-## 开局一张图，内容全靠“编”
+## 开局两张图，内容全靠“编”
 
-{{< figure src="landscape.png" title="CNCF Cloud native Interactive Landscape" >}}
+来，有图有真相！
+
+### DevStream ❤️ CNCF
+
+{{< figure src="love.jpg" title="DevStream joins CNCF Sandbox" >}}
 
 ## 严肃版本，留给严肃的人
 
@@ -34,7 +38,7 @@ resources:
 
 {{< figure src="starbucks.png" title="Bar Mixato, Starbucks Reserve, Chengdu, China" >}}
 
-也可能在“路边躺”，抱着一个死鬼的 MacBook 和一瓶死便宜的矿泉水，像个乞丐席地坐，放飞自我，任他人来人去，看客回眸，指指点点～
+也可能在“路边躺”，抱着一个死贵的 MacBook 和一瓶死便宜的矿泉水，像个乞丐席地坐，放飞自我，任他人来人去，看客回眸，指指点点～
 
 {{< figure src="subway-station.jpg" title="Luomashi Subway Station, Chengdu, China" >}}
 
