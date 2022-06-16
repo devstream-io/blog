@@ -20,6 +20,10 @@ resources:
 
 {{< figure src="love.jpg" title="DevStream joins CNCF Sandbox" >}}
 
+### CNCF Cloud Native Interactive Landscape
+
+{{< figure src="landscape.png" title="CNCF Cloud native Interactive Landscape" >}}
+
 ## 严肃版本，留给严肃的人
 
 我不代表 DevStream 团队官宣“**DevStream 成为 CNCF Sandbox 项目**”这个事。
@@ -36,7 +40,7 @@ resources:
 
 我可能在“装土豪”，喝着咖啡听着歌，抿着洋酒敲键盘～
 
-{{< figure src="starbucks.png" title="Bar Mixato, Starbucks Reserve, Chengdu, China" >}}
+{{< figure src="starbucks.jpeg" title="Bar Mixato, Starbucks Reserve, Chengdu, China" >}}
 
 也可能在“路边躺”，抱着一个死贵的 MacBook 和一瓶死便宜的矿泉水，像个乞丐席地坐，放飞自我，任他人来人去，看客回眸，指指点点～
 
