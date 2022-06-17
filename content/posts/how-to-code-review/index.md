@@ -149,7 +149,7 @@ Since you are a reviewer, you have permission to click the gear "⚙️" icon to
 
 Click the "_Add your review_" button and we will be directed to the Code Review page:
 
-![](reviewpage.png)
+![](./reviewpage.png)
 
 Here, we have a few features worth exploring:
 - the "file tree" on the left
@@ -163,11 +163,11 @@ To read more details about these, check out the [official doc here](https://docs
 
 For simple code changes, it's more than enough to view the code diff on the code review web page. Example:
 
-![](pr1.png)
+![](./pr1.png)
 
 We could easily tell if this change makes sense or not (hint: No. Missing comma. Try to find it :) If it's fixed, we can approve it:
 
-![](lgtm.png)
+![](./lgtm.png)
 
 ---
 
@@ -184,17 +184,17 @@ git checkout pr641
 
 Results:
 
-![](pr641.png)
+![](./pr641.png)
 
 Then we simply start our IDE and read the code there:
 
-![](ide.png)
+![](./ide.png)
 
 In IDE, it's much easier to spot possible mistakes (like missing a comma.) And, you can also build, test, and run it locally to see if it passes the unit tests and even integration tests.
 
 You might think this is redundant because a PR might have triggered a CI process already: 
 
-![](check.png)
+![](./check.png)
 
 But hey, not all CI workflows are born equally. For example, not all CI workflows would run integration tests. So, testing a PR locally is still necessary for bigger PRs and for more complicated changes, to do a quick regression.
 
@@ -220,7 +220,7 @@ Plus, this PR isn't simple enough to get it 100% right. It seems easy, but to ma
 
 That's why we added another commit to improve his work (important: and also let him know about it,) and included the test result:
 
-![](pr589.png)
+![](./pr589.png)
 
 How to do this exactly?
 
@@ -237,11 +237,11 @@ git commit -m "bug: yyy"
 
 We can find out from which branch this PR comes from:
 
-![](branch.png)
+![](./branch.png)
 
 Now we see the "fork" info, like:
 
-![](fork.png)
+![](./fork.png)
 
 Then we can add a new remote:
 
@@ -258,7 +258,7 @@ Then we push to it:
 git push himku HEAD:fix-issue-559
 ```
 
-![](push.png)
+![](./push.png)
 
 Cool, right? But again: rethink before you want to do this; because more often than not, you don't necessarily want to do it.
 

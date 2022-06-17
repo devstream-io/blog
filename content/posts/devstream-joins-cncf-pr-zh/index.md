@@ -74,6 +74,6 @@ DevStream 的愿景是成为 DevOps 工具链运维的一站式工具。就像 a
 - DevStream 文档：https://docs.devstream.io
 - 如何参与贡献：https://docs.devstream.io/en/latest/contributing_guide/
 - DevStream 社群：加入 [Slack](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w) 或扫描微信二维码
-![DevStream 微信社群二维码](devstream-wechat.png)
+![DevStream 微信社群二维码](./devstream-wechat.png)
 
 > CNCF (Cloud Native Computing Foundation) 成立于 2015 年 12 月，是 Linux Foundation 旗下的非盈利组织，致力于培育和维护一个厂商中立的开源生态系统，来推广云原生技术。

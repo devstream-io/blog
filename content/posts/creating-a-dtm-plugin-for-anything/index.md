@@ -167,7 +167,7 @@ Before explaining interfaces and implementing them, let's have a look at how Dev
 
 DevStream decides what to do based on your _Config_, the _State_, and the _Resource_'s status. See the flowchart below:
 
-![dtm config state resource](config_state_resource.png "DevStream Config, State and Resource")
+![dtm config state resource](./config_state_resource.png "DevStream Config, State and Resource")
 
 ### Interfaces
 
