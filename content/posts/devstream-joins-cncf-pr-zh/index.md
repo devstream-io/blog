@@ -3,7 +3,7 @@ title: "DevStream 进入 CNCF 沙箱，探索云原生时代的高效 DevOps 实
 author: "Weisi Deng | 邓惟思"
 authorLink: https://github.com/Ushuaiaff
 tags: ["devstream", "open-source", "cncf", "中文文章"]
-categories: ["Open Source", "CNCF", "中文文章"]
+categories: ["Open Source", "CNCF", "开源", "中文文章"]
 date: 2022-06-17
 
 resources:
@@ -18,8 +18,8 @@ keywords:
 - CNCF
 - open-source
 - sandbox
+- 开源
 ---
-![DevStream 进入 CNCF 沙箱](love.jpg)
 
 2022 年 6 月 15 日，云原生计算基金会 (CNCF) 宣布 [DevStream](https://www.devstream.io/) 正式成为 [CNCF 沙箱（Sandbox）项目](https://www.cncf.io/sandbox-projects/)。
 
@@ -31,8 +31,6 @@ DevStream 是一个开源的 DevOps 工具链管理器，可以通过一个简�
 -  在 DevOps 工具链的整合和维护上力不从心
 
 DevStream 主要解决开源 DevOps 工具链落地难、维护难的痛点，一方面让开发者少在 DevOps 工具上踩坑，投入更多的精力在更重要的业务逻辑上；另一方面让研发团队不再受限于维护和替换成本，能够更自由地选择最适宜的工具组合，使效能最大化。
-
-
 
 ## 主要特性
 为了支持 DevOps 工具链的灵活高效管理，DevStream 具备以下特性：
@@ -51,8 +49,6 @@ DevStream 主要解决开源 DevOps 工具链落地难、维护难的痛点，�
 
 {{< figure src="landscape.png" title="DevStream 进入 CNCF landscape" >}}
 
-
-
 ## DevStream 社区和开发者
 
 几个月来，DevStream 产品变得强大、丰富，离不开它背后茁壮成长的社区：
@@ -66,14 +62,10 @@ DevStream 主要解决开源 DevOps 工具链落地难、维护难的痛点，�
 
 {{< figure src="pr-stat.png" title="过去 6 个月社区 PR 统计，cr. Apache DevLake (incubating)" >}}
 
-
 ## 未来规划
 DevStream 的愿景是成为 DevOps 工具链运维的一站式工具。就像 apk、apt、yum 等包管理工具能够为任何新环境轻松设置你最喜欢的软件包一样，DevStream 希望成为 DevOps 工具的软件包管理器。当开发者需要替换工具链上的某一个组件，用几行代码就可以轻松搞定。
 
 在此基础上，用户能够根据不同场景下的 DevOps 工具链需求，创建不同发行版，使行业优秀实践能够被快速学习、复用。
-
-
-
 
 ## 如何参与 DevStream 社区？
 欢迎所有人参与社区建设，让 DevStream 越来越有生命力！
@@ -83,6 +75,5 @@ DevStream 的愿景是成为 DevOps 工具链运维的一站式工具。就像 a
 - 如何参与贡献：https://docs.devstream.io/en/latest/contributing_guide/
 - DevStream 社群：加入 [Slack](https://join.slack.com/t/devstream-io/shared_invite/zt-16tb0iwzr-krcFGYRN7~Vv1suGZjdv4w) 或扫描微信二维码
 ![DevStream 微信社群二维码](devstream-wechat.png)
-
 
 > CNCF (Cloud Native Computing Foundation) 成立于 2015 年 12 月，是 Linux Foundation 旗下的非盈利组织，致力于培育和维护一个厂商中立的开源生态系统，来推广云原生技术。
