@@ -97,11 +97,11 @@ keywords:
 
 **Tiexin Guo**：“我再给你们截个图”
 
-![a](a.jpg)
+![a](./a.jpg)
 
 **Daniel Hu**：“我了个乖乖，老霸气了！”
 
-![b](b.jpg)
+![b](./b.jpg)
 
 **Daniel Hu**：“有点小失望，似乎点赞人数没有到100，不给力哦不给力～”
 
@@ -110,4 +110,4 @@ keywords:
 
 **Echo Ma**：“好吧，你要的二维码，拿去。”
 
-![c](c.jpg)
+![c](./c.jpg)

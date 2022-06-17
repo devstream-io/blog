@@ -34,7 +34,7 @@ resources:
 
 **先看一幅图**
 
-![commits](a.png)
+![commits](./a.png)
 
 有些头像打码了。对。他们不重要。他们已经是 Member 了。
 
@@ -57,15 +57,15 @@ resources:
 
 ### 刘俊余
 
-![liujunyu](liujunyu.jpeg)
+![liujunyu](./liujunyu.jpeg)
 
 ### 李鹤鹏
 
-![lihepeng](lihepeng.jpeg)
+![lihepeng](./lihepeng.jpeg)
 
 ### 侯雪城
 
-![houxuecheng](houxuecheng.jpeg)
+![houxuecheng](./houxuecheng.jpeg)
 
 ## 礼物
 
