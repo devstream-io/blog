@@ -328,6 +328,8 @@ git push origin feat-xxx
 
 很多情况下我们需要去合并 commits，比如你的第一个 commit 里改了100行代码，然后发现少改了1行，这时候又提交了一个 commit，那么第二个 commit 就太“没意思”了，我们需要合并一下。
 
+### 6.2.1、Git 命令行方式合并 Commits
+
 比如我这里有2个同名的 commits，第二个 commit 其实只改了一个标点：
 
 {{< figure title="Commits to be Merged" src="2commits.png" >}}
@@ -418,6 +420,28 @@ git push -f origin feat-xxx
 ```
 
 这里需要有一个`-f`参数来强制更新，合并了 commits 本质也是一种冲突，需要冲掉远程旧的 commits 记录。
+
+#### 6.2.2 IDE 里合并 Commits
+
+图形化方式当然也可以实现 Commits 的合并。
+
+- 截图走起
+
+{{< figure title="Squash with Goland" src="ide-squash-1.png" >}}
+
+1. 点击右下角的 Git
+2. 选择想要合并的 commits
+3. 右键，然后点击 Squash Commits，记得嘴里默念一句：走你！
+
+接着就可以看到这个页面了：
+
+{{< figure title="Squash with Goland" src="ide-squash-2.png" >}}
+
+这是图形化方式修改 commit message 的页面，行吧，改成你喜欢的样子，然后点击右下角的 OK 按钮，事情就算结束了。
+
+{{< figure title="Squash with Goland" src="ide-squash-3.png" >}}
+
+看，2个 commits，它们“融合”了，变成了一个“改头换面”的新 commit 了。
 
 ### 6.3、PR 产生了冲突，如何解决？
 
