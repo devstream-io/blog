@@ -328,7 +328,7 @@ git push origin feat-xxx
 
 很多情况下我们需要去合并 commits，比如你的第一个 commit 里改了100行代码，然后发现少改了1行，这时候又提交了一个 commit，那么第二个 commit 就太“没意思”了，我们需要合并一下。
 
-### 6.2.1、Git 命令行方式合并 Commits
+#### 6.2.1、Git 命令行方式合并 Commits
 
 比如我这里有2个同名的 commits，第二个 commit 其实只改了一个标点：
 
