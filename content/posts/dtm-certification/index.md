@@ -129,9 +129,9 @@ DevStream 社区目前有4大类证书(徽章)，分别是：
 
 {{< figure title="DevStream Contributor of the Month" src="month.png" >}}
 
-{{< figure title="DevStream Contributor of the Year" src="year.png" >}}
+{{< figure title="DevStream Contributor of the Year" src="year1.png" >}}
 
-{{< figure title="DevStream Core Contributor of the Year" src="year1.png" >}}
+{{< figure title="DevStream Core Contributor of the Year" src="year.png" >}}
 
 ## 好，集齐了，秀证时间！
 
@@ -177,15 +177,15 @@ DevStream 社区从三月份就开始发证书了，长这样：
 
 - DevStream 社区第一个认证的 Contributor
 
-{{< figure title="DevStream Contributor 1" src="contributor-1.jpg" >}}
+{{< figure title="DevStream Contributor No.1" src="contributor-1.jpg" >}}
 
 - DevStream 社区第一个认证的 Member
 
-{{< figure title="DevStream Member 1" src="member-1.jpg" >}}
+{{< figure title="DevStream Member No.1" src="member-1.jpg" >}}
 
 - DevStream 社区第一个认证的 Talented Speaker
 
-{{< figure title="DevStream Talented Speaker 1" src="speaker-1.jpg" >}}
+{{< figure title="DevStream Talented Speaker No.1" src="speaker-1.jpg" >}}
 
 很遗憾，这套证书没有我的份。咋说呢，我是那个发证书的人嘛，没好意思给自己发一张。不过，但是，BUT！现在第二套证书的颜值，我是坐不住了，我先拿为敬了！
 
