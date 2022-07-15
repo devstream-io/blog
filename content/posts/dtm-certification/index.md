@@ -189,4 +189,4 @@ DevStream 社区从三月份就开始发证书了，长这样：
 
 很遗憾，这套证书没有我的份。咋说呢，我是那个发证书的人嘛，没好意思给自己发一张。不过，但是，BUT！现在第二套证书的颜值，我是坐不住了，我先拿为敬了！
 
-**啥？你也想要？来，且看这篇[“保姆级教程”](https://blog.devstream.io/posts/open-a-pr-in-github/)。**
+**啥？你也想要？来，[“保姆级教程”](https://blog.devstream.io/posts/open-a-pr-in-github/)，拿走不谢。**
