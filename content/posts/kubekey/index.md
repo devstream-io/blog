@@ -2,8 +2,7 @@
 title: "使用 KubeKey 搭建 Kubernetes/KubeSphere 环境的\"心路(累)历程\""
 subtitle: "给 KubeKey 的十几个意见、建议"
 author: "胡涛 | Daniel Hu"
-tags: ["Cloud Native", "Kubernetes", "KubeSphere", "KubeSphere", "KubeKey"]
-categories: ["云原生 | Cloud Native"]
+authorLink: https://www.danielhu.cn
 tags: ["kubekey", "kubesphere", "kubernetes", "中文文章"]
 categories: ["Kubernetes", "中文文章"]
 date: 2022-06-08

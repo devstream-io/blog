@@ -2,6 +2,7 @@
 title: "如何参与开源项目 - 细说 GitHub 上的 PR 全过程"
 subtitle: ""
 author: "胡涛 | Daniel Hu"
+authorLink: https://www.danielhu.cn
 tags: ["how-to", "open source", "中文文章", "开源", "github"]
 categories: ["DevStream How-To", "开源", "中文文章"]
 date: 2022-07-05
