@@ -19,7 +19,7 @@ keywords:
 ---
 
 ## 开门见山
-音频：播客传送门：[https://www.xiaoyuzhoufm.com/episodes/62e9058c9f87279faacd8899](https://www.xiaoyuzhoufm.com/episodes/62e9058c9f87279faacd8899)
+音频：播客传送门：[https://www.ximalaya.com/sound/558277589](https://www.ximalaya.com/sound/558277589)
 
 ## 前因
 
@@ -45,7 +45,7 @@ keywords:
 2. 在加入思码逸之前，你主要做过哪些工作？
 3. 听你说现在做DevStream，那么简单给听众介绍下DevStream是啥？
 4. 最近一个跳槽，据说你是在腾讯的 offer 和思码逸之间选择了思码逸，能不能聊聊你为什么这样做，为什么选择加入 DevStream 团队？
-5. 好的。接下来我们讨论一些提前收集的DevStream用户的问题吧。说到 DevStream，有用户问到：DevStream 和 helm 的本质区别是什么？
+5. 接下来我们讨论一些提前收集的DevStream用户的问题吧。说到 DevStream，有用户问到：DevStream 和 helm 的本质区别是什么？
 6. 你刚说到 DevStream 的一些高大上的能力，但是有用户吐槽：DevStream 目前看起来似乎只能简单地去部署一些工具，看起来没啥价值，你怎么看？
 7. 如果我不差钱，我可以为云厂商提供的一站式 DevOps 平台付费，这时候我还有必要考虑 DevStream 吗？
 
