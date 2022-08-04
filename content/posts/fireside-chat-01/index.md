@@ -9,7 +9,7 @@ date: 2022-08-04
 
 resources:
 - name: "featured-image"
-  src: "banner.jpg"
+  src: "banner.jpeg"
 
 keywords:
 - DevOps
@@ -19,7 +19,12 @@ keywords:
 ---
 
 ## 开门见山
-音频：播客传送门：[https://www.ximalaya.com/sound/558277589](https://www.ximalaya.com/sound/558277589)
+
+### 音频版
+
+{{< music url="https://aod.cos.tx.xmcdn.com/storages/bf2f-audiofreehighqps/85/E2/GKwRIDoGwVOBAQa44wGOLjQ2.m4a" name="DevOps围炉夜话" artist="Pilot - CNCF开源DevOps项目DevStream简介 - feat. PMC成员胡涛" cover="audio-cover.png" >}}
+
+也可前往 [喜马拉雅](https://www.ximalaya.com/sound/558277589) 收听。
 
 ## 前因
 
@@ -52,8 +57,3 @@ keywords:
 ## 结语
 
 希望提问的听众朋友们，欢迎大家留言，我们会一一记录并在下期节目中讨论。
-
-
-
-
-
