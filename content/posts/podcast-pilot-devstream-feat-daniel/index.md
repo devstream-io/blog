@@ -20,6 +20,11 @@ Hello, and DevStream is happy to present to you our new Podcast, "DevOps Firesid
 
 Listen here:
 
+
+{{< music url="https://aod.cos.tx.xmcdn.com/storages/bf2f-audiofreehighqps/85/E2/GKwRIDoGwVOBAQa44wGOLjQ2.m4a" name="DevOps围炉夜话" artist="Pilot - CNCF开源DevOps项目DevStream简介 - feat. PMC成员胡涛" cover="banner.png" >}}
+
+Optionally, you can go to [Ximalaya](https://www.ximalaya.com/sound/558277589) to play:
+
 https://www.ximalaya.com/sound/558277589
 
 ---
