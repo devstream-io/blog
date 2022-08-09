@@ -9,7 +9,7 @@ date: 2022-08-04
 
 resources:
 - name: "featured-image"
-  src: "banner.jpeg"
+  src: "banner.png"
 
 keywords:
 - DevOps
@@ -22,9 +22,13 @@ keywords:
 
 ### 音频版
 
-{{< music url="https://aod.cos.tx.xmcdn.com/storages/bf2f-audiofreehighqps/85/E2/GKwRIDoGwVOBAQa44wGOLjQ2.m4a" name="DevOps围炉夜话" artist="Pilot - CNCF开源DevOps项目DevStream简介 - feat. PMC成员胡涛" cover="audio-cover.png" >}}
+{{< music url="https://aod.cos.tx.xmcdn.com/storages/bf2f-audiofreehighqps/85/E2/GKwRIDoGwVOBAQa44wGOLjQ2.m4a" name="DevOps围炉夜话" artist="Pilot - CNCF开源DevOps项目DevStream简介 - feat. PMC成员胡涛" cover="banner.png" >}}
 
-也可前往 [喜马拉雅](https://www.ximalaya.com/sound/558277589) 收听。
+也可前往[喜马拉雅](https://www.ximalaya.com/sound/558277589)、[小宇宙](https://www.xiaoyuzhoufm.com/episode/62ec8532adbcb96cf7f767af)收听。
+
+### 视频版
+
+{{< bilibili BV14S4y1s7fE >}}
 
 ## 前因
 
@@ -57,3 +61,31 @@ keywords:
 ## 结语
 
 希望提问的听众朋友们，欢迎大家留言，我们会一一记录并在下期节目中讨论。
+
+## 访谈中提到的链接
+
+* [胡涛网站](https://www.danielhu.cn/)
+* [DevStream 演示视频](https://docs.devstream.io/en/latest/index.zh/)
+* [CNCF TOC 评审会议](https://www.youtube.com/watch?v=zcTZ2pYPM9I&t=2508s)
+* [k8s-1.13版本源码分析](https://github.com/daniel-hutao/k8s-source-code-analysis)
+
+## 相关链接
+### 关于DevStream
+
+* [CNCF项目链接](https://www.cncf.io/projects/devstream/)
+* [主页](https://www.devstream.io)
+* [文档](https://docs.devstream.io)
+* [博客](https://blog.devstream.io/)
+
+### 关于主持人：郭铁心
+
+* [网站](https://www.guotiexin.com/)
+* [GitHub: @ironcore](https://github.com/IronCore864)
+
+### 关于嘉宾：胡涛
+* [网站](https://www.danielhu.cn/)
+* [GitHub: @daniel-hutao](https://github.com/daniel-hutao)
+
+扫码关注胡涛公众号：**胡说云原生 - 专注于云计算领域技术栈**
+
+![胡说云原生 - 专注于云计算领域技术栈](wechat.png)

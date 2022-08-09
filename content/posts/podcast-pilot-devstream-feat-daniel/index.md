@@ -23,9 +23,17 @@ Listen here:
 
 {{< music url="https://aod.cos.tx.xmcdn.com/storages/bf2f-audiofreehighqps/85/E2/GKwRIDoGwVOBAQa44wGOLjQ2.m4a" name="DevOps围炉夜话" artist="Pilot - CNCF开源DevOps项目DevStream简介 - feat. PMC成员胡涛" cover="banner.png" >}}
 
-Optionally, you can go to [Ximalaya](https://www.ximalaya.com/sound/558277589) to play:
+* Optionally, you can go to [Ximalaya](https://www.ximalaya.com/sound/558277589) to play: 
 
 https://www.ximalaya.com/sound/558277589
+
+* You can also listen this podcast in [xiaoyuzhoufm](https://www.xiaoyuzhoufm.com/episode/62ec8532adbcb96cf7f767af): 
+
+https://www.xiaoyuzhoufm.com/episode/62ec8532adbcb96cf7f767af
+
+* If you prefer to watch the video, you can also watch it directly on this page:
+
+{{< bilibili BV14S4y1s7fE >}}
 
 ---
 
@@ -68,3 +76,11 @@ Finally, welcome to the pilot (very first) episode of the DevOps Fireside Chat p
 This episode is in Mandarin. Sorry for English-speaking readers and listeners; we will surely host chats in English.
 
 In today's episode, we invited Daniel Hu, the PMC member of DevStream, a CNCF open-source project. We discussed DevStream, DevOps, work-life balance, and more. Stay tuned!
+
+## Links
+
+* [DevStream](https://www.devstream.io)
+* [Website of Daniel Hu](https://www.danielhu.cn/)
+* [Website of Tiexin Guo](https://www.guotiexin.com)
+* [CNCF TOC review meeting](https://www.youtube.com/watch?v=zcTZ2pYPM9I&t=2508s)
+* [DevStream demo](https://docs.devstream.io/en/latest/index/)
