@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
 title = "DevStream Blog"
+googleAnalytics = "G-GW88B1KC6Z"
 
 theme = "LoveIt"
 
@@ -30,6 +31,14 @@ theme = "LoveIt"
     Medium = "devstream"
     Devto = "devstream"
     RSS = true
+  #  Google网站分析配置
+  [analytics]
+    enable = true
+    # Google Analytics
+  [analytics.google]
+    id = "G-GW88B1KC6Z"
+    # 是否匿名化用户 IP
+    anonymizeIP = true
   [params.section]
     # special amount of posts in each section page
     paginate = 30
