@@ -32,12 +32,12 @@ theme = "LoveIt"
     Devto = "devstream"
     RSS = true
   #  Google网站分析配置
-  [analytics]
+  [params.analytics]
     enable = true
     # Google Analytics
-  [analytics.google]
+  [params.analytics.google]
     id = "G-GW88B1KC6Z"
-    # 是否匿名化用户 IP
+    # whether to anonymize IP
     anonymizeIP = true
   [params.section]
     # special amount of posts in each section page
