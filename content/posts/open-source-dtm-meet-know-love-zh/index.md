@@ -190,7 +190,7 @@ keywords:
 
 目前项目有两位 PMC，[郭铁心](https://www.guotiexin.com/) 和 [胡涛](https://www.danielhu.cn/) 。二人的能力方面，我没资格评价，只能说是业内顶级大佬。
 
-> 郭铁心，08届清华大学计算机系本科毕业生，先后就职于亚马逊、Oracle、百度、华为等大厂，也曾是创业公司的CTO。他还是Medium知名DevOps刊物fourth coffee的创始人，也是[DevOps.com](http://DevOps.com)的特邀撰稿人。
+> 郭铁心，08届清华大学计算机系本科毕业生，先后就职于亚马逊、Oracle、百度、华为等大厂，也曾是创业公司的CTO。他还是Medium知名DevOps刊物fourth coffee的创始人，也是[DevOps.com](https://DevOps.com)的特邀撰稿人。
 
 > 胡涛，曾深度参与云平台从0到1建设，主导云研发团队DevOps流程制定与工具链开发工作；他混迹云原生领域多年，是《Kubernetes Operator 开发进阶》一书作者（2022年下旬出版）；另外他出于对开源和 DevStream 的热爱，拒掉了腾讯的offer去了创业公司思码逸。强烈建议看看他的演讲（[开源 DevOps 工具链整合可以更简单](https://www.danielhu.cn/speech-devops-202205/)）。
 

@@ -1,7 +1,7 @@
 ---
 title: "minikube结合阿里云镜像搭建本地开发测试环境"
 author: "HaoKe | 柯浩"
-authorLink: http://github.com/KeHaohaoke
+authorLink: https://github.com/KeHaohaoke
 tags: ["kubernetes", "minikube"]
 categories: ["kubernetes", "General", "中文文章"]
 date: 2022-05-18
