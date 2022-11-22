@@ -4,8 +4,8 @@ author: "Tiexin Guo | 郭铁心"
 authorLink: https://www.guotiexin.com
 tags: ["devops", "kubernetes", "tools", "english-articles"]
 categories: ["DevOps", "Kubernetes", "English Articles"]
-date: 2022-11-03
-
+date: 2022-11-22
+canonical_url: https://www.doppler.com/blog/kubernetes-secrets-management-in-2022
 resources:
 - name: "featured-image"
   src: "secrets.jpg"
@@ -16,6 +16,8 @@ keywords:
 - Kubernetes
 - Secrets
 ---
+
+Note: this blog is originally published [here](https://www.doppler.com/blog/kubernetes-secrets-management-in-2022).
 
 Secrets are already a fundamental building block of the modern Software Development Lifecycle (SDLC). Applications, CI/CD systems, API access, Databases, etc., all require some form of secrets/tokens/credentials in one way or another: secrets are literally involved in every single stage of the SDLC. And, for security reasons, you can't put the secret in your version control system (although there are tools, like [SOPS](https://github.com/mozilla/sops), which make it possible to share secrets using source code management systems). These are precisely the reasons why we should manage secrets properly.
 
@@ -227,3 +229,11 @@ Now, a new kid is on the block: [Doppler](https://www.doppler.com/).
 Simply put, Doppler is trying to make it as easy as it should be to manage secrets. Easy to use? Check. Easy to sync secrets as K8s Secrets? Check. Twelve-Factor App, cloud-native? Check. No overhead? Check. Automatic reload upon secrets update? Check!
 
 If you are interested in Doppler, [here's a quick tutorial](https://medium.com/4th-coffee/doppler-a-brief-introduction-to-secrets-managers-e779b48fac1b).
+
+---
+
+## 7 Summary
+
+The evolving Kubernetes Secrets landscape now provides development teams with many choices for storing, managing, syncing, and injecting secrets into containers.
+
+I hope this post has given you some new ideas for improving your secrets management workflows in Kubernetes.
