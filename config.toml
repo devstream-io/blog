@@ -75,6 +75,7 @@ theme = "LoveIt"
     identifier = "github"
     pre = "<i class='fab fa-github fa-fw'></i>"
     name = ""
+    title = "Github"
     url = "https://github.com/devstream-io/devstream"
     weight = 5
 
