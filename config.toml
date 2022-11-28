@@ -49,6 +49,7 @@ theme = "LoveIt"
     custom = 'Merico Inc. and the DevStream Contributors'
     hugo = false
     copyright = true
+    author = false
 
 [menu]
   [[menu.main]]
