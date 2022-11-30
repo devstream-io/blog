@@ -4,7 +4,7 @@ author: "Tiexin Guo | 郭铁心"
 authorLink: https://www.guotiexin.com
 tags: ["how-to", "devstream", "english-articles"]
 categories: ["DevStream How-To", "English Articles"]
-date: 2022-11-24
+date: 2022-11-30
 resources:
 - name: "featured-image"
   src: "wordcloud.png"
